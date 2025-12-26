@@ -1,0 +1,22 @@
+.backdrop {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-neutral-100);
+}
+
+.modalBody {
+    padding-block: var(--spacing-100);
+    width: 90%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow-y: scroll;
+    background-color: var(--color-neutral-0);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
