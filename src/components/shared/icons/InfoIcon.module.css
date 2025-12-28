@@ -1,0 +1,14 @@
+.baseIcon {
+    width: var(--spacing-200);
+    height: var(--spacing-200);
+}
+
+.error {
+    stroke: var(--color-red-500)
+}
+
+.icon {
+    stroke: var(--color-neutral-600);
+
+}
+

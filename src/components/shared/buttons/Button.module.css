@@ -1,0 +1,21 @@
+.border {
+    background-color: unset;
+    border: 1px solid var(--color-neutral-300)
+}
+
+.primary {
+    background-color: var(--color-blue-500);
+    color: var(--color-neutral-0);
+    border: none;
+}
+
+.secondary {
+    border: none;
+}
+
+.btn {
+    border-radius: var(--radius-8);
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+}

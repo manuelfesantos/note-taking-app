@@ -1,5 +1,11 @@
 import type { Theme } from "@/types/theme.ts";
-import { createContext, ReactNode, useContext, useMemo, useState } from "react";
+import {
+  createContext,
+  type ReactNode,
+  useContext,
+  useMemo,
+  useState,
+} from "react";
 import { ThemeEnum } from "@/types/theme.ts";
 
 interface ThemeContextProps {
